@@ -1,10 +1,8 @@
 
-简书：https://www.jianshu.com/p/5cf0d241ae12
-
-![WKWebView的使用](https://upload-images.jianshu.io/upload_images/1708447-eb27b4d6eab2cc75.gif?imageMogr2/auto-orient/strip)
+简书：https://www.jianshu.com/p/8a6d5835c273
 
 ### 前言
->最近项目中的UIWebView被替换为了WKWebView，因此来总结一下WKWebView的使用。 示例Demo：[WKWebView的使用](https://github.com/jccapril/WKWebview)
+[WKWebView的使用](https://github.com/jccapril/WKWebview)
 本文将从以下几方面介绍WKWebView： 
 > * 1、WKWebView用到的相关的类
 > * 2、使用WKUserContentController时出现循环引用的解决方案

@@ -413,6 +413,9 @@
 //    [[_webView configuration].userContentController removeAllUserScripts]
     [[_webView configuration].userContentController removeScriptMessageHandlerForName:@"jsToOcNoPrams"];
     [[_webView configuration].userContentController removeScriptMessageHandlerForName:@"jsToOcWithPrams"];
+    [self.webView removeObserver:self forKeyPath:NSStringFromSelector(@selector(estimatedProgress))];
+    [self.webView removeObserver:self forKeyPath:@"title"];
+  
     
 }
 
